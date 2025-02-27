@@ -2,6 +2,11 @@
 
 Please check the blog: [The Eye of Horus part1: Image Generation and Watermark Detection with Vertex AI Imagen 3 and SynthID](https://memo.jimmyliao.net/p/the-eye-of-horus-part1-image-generation)
 
+新聞: [數位部致力推動可信任AI　辦理審議式民主活動邀國際AI廠商交流](https://moda.gov.tw/press/press-releases/12648)，針對「運用AI促進資訊完整性審議式民主活動」，對於生成式AI內容進行分析及辨別方面，國際廠商皆在會中提出已建立或即將導入的相關作法，包括SynthID技術（用於AI生成圖片中建立浮水印，或偵測AI生成圖片中的浮水印，以方便辨識AI生成的圖片）等AI生成內容偵測技術、溯源標註及簽章、用戶檢舉機制，以及提醒用戶注意AI生成內容等作法。
+
+而此文章展示了 SynthID 浮水印技術 在 AI 生成圖像 中的應用。評估 SynthID 在 Imagen 3 生成的圖像中嵌入與檢測不可見浮水印的效果，並提供了一種 驗證 AI 生成內容來源與真實性 的方法。
+
+
 **Background:**
 
 * **Imagen (Vertex AI):** Google Cloud's Imagen is a powerful text-to-image diffusion model.
